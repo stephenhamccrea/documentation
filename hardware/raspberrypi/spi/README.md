@@ -101,6 +101,7 @@ If CDIV is set to 0, the divisor is 65536. The divisor must be a power of 2. Odd
 ```
 
 [Errata](http://elinux.org/BCM2835_datasheet_errata):  "must be a power of 2" probably should be "must be a multiple of 2"
+Not Errata - see below for valid CDIV values that are all powers of 2.
 
 See the [Linux driver](#driver) section for more info.
 
